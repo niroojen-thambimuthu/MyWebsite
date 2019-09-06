@@ -2,57 +2,180 @@
 <html lang="en">
 
 <head>
-	<title>Niroojen's Official Website</title>
+	<title>Niroojen Thambimuthu - Website</title>
 	<meta name="author" content="Niroojen Thambimuthu">
 	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" type="text/css" href="homeCSS.css"> -->
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
 
-
+	<link rel="stylesheet" type="text/css" href="homeCSS.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-	<style>
+	<!-- <style>
 		.fakeimg {
 			height: 200px;
 			background: #aaa;
 		}
-	</style>
+	</style> -->
 </head>
 
 <body>
 
-	<div class="container">
-		<div class="jumbotron text-center" style="margin-bottom:0">
-			<h1>Niroojen Thambimuthu</h1>
+	<div class="container-fluid justify-content-center" id="homePage" style="border: 2px solid blue;">
+		<div class="row justify-content-center" id="rowHome" style="border: 2px solid red;">
+			<div class="col-12 col-sm-10">
+				<a href="#StartingPoint">
+					<h1>Welcome to Niroojen's Website</h1>
+				</a>
+
+			</div>
 		</div>
+
 	</div>
 
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top justify-content-between" id="StartingPoint">
+		<a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Niroojen LOGO" class="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="buttonNav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#">About-Me</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<div class="container" style="margin-top:30px">
+	<!-- https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp -->
+
+	<!-- <div id="backgroundPage"></div> -->
+
+	<!-- <nav class="navbar navbar-expand-md navbar-dark bg-light" id="navbarTop">
+		<a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Niroojen LOGO" class="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="buttonNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Portfolio</a>
+				</li>
+			</ul>
+		</div>
+	</nav> -->
+
+
+	<!-- <div class="container-fluid" id="homePage">
+		<h1>Welcome to Niroojen's Website</h1>
+	</div>
+
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+			<a class="navbar-brand" href="#">Logo</a>
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			</ul>
+		</nav> -->
+
+
+	<div class="container-fluid justify-content-center" style="margin-top:30px;">
+		<div class="row justify-content-center">
+			<div class="col-12 col-sm-10">
+				<div class="row justify-content-center" style="border: 2px solid red;">
+					<div class="col-12 col-md-6" style="border: 2px solid black;">
+						<h1>About Me</h1>
+						<p>I’m a new-grad from the University of Calgary, currently working at <strong>Stream Data
+								Systems </strong> as a <strong> Full Stack Developer</strong>. If I don't know
+							something, I'm willing to learn to get the answer. I'm a dependable individual who will
+							get
+							the job done on-time. Should certain roadblocks appear that may delay the delivery of a
+							milestone, I will be transparent enough to let my team know well in advance.
+						</p>
+					</div>
+					<div class="col-12 col-md-6" style="border: 2px solid green;">
+						<img src="./assets/img/facePic.jpg" alt="My portrait">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-lg-4">
+				<div class="single-target-box">
+					<h1>Values</h1>
+					<strong>Honesty:</strong> <i><q>Honesty is the first chapter in the book of wisdom.</q></i> This
+					quote by Thomas Jefferson resonates with me in a way that keeps me grounded with myself and those
+					around me. It teaches me that taking the honest path may not be the easiest trail, but there'll be
+					less roadblocks closer to the destination.
+					<br>
+					<br>
+					<strong>Discipline:</strong> Someone once told me <i><q>Have as much fun as you want, but when it's
+							time to do work, you better sit down and do it.</q></i> I have tried to make this my mantra
+					for everything that I do in my life whether it's for school, career, or relationships.
+					<br>
+					<br>
+					<strong>Accountability:</strong> Ensuring that I am accountable for the work that I present means
+					that I stand by what I am delivering. Should it not be to the liking of my team or client, then I am
+					responsible for ensuring that the issue is resolved.
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="single-target-box">
+					<h1>Goals</h1>
+					To be a decent person who is respected by family, friends, loved ones and my chosen communities. I
+					am here to make a positive difference despite being imperfect. My work reflects my values and
+					enables me to enhance the lives of others in a wide scope. People will remember me for being there
+					to lend a hand, keeping an open mind, and for getting involved in issues that matter most to me.
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="single-target-box">
+					<h1>hobbies</h1>
+					Hiking in the Rocky Mountains, reading various genres of books, working out and playing sports.
+				</div>
+			</div>
+		</div>
+		<!--End of row-->
+	</div>
+
+
+	<!-- <div class="container" style="margin-top:30px">
+		<div class="row">
+			<div class="col-sm-4" style="border: 2px solid red;">
 				<h2>About Me</h2>
 				<h5>Photo of me:</h5>
 				<div class="fakeimg">Fake Image</div>
@@ -75,13 +198,14 @@
 				</ul>
 				<hr class="d-sm-none">
 			</div>
-			<div class="col-sm-8">
+			<div class="col-sm-8" style="border: 2px solid green;">
 				<h2>TITLE HEADING</h2>
 				<h5>Title description, Dec 7, 2017</h5>
 				<div class="fakeimg">Fake Image</div>
 				<p>Some text..</p>
 				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+					nostrud
 					exercitation ullamco.</p>
 				<br>
 				<h2>TITLE HEADING</h2>
@@ -89,15 +213,18 @@
 				<div class="fakeimg">Fake Image</div>
 				<p>Some text..</p>
 				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+					nostrud
 					exercitation ullamco.</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="jumbotron text-center" style="margin-bottom:0">
 		<p>Footer</p>
 	</div>
+
+
 </body>
 
 </html>
