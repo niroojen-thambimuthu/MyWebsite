@@ -11,7 +11,8 @@
 	<link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
 
 	<link rel="stylesheet" type="text/css" href="homeCSS.css">
-	<script src="myscripts.js"></script>
+	<!-- <link rel="stylesheet" media="screen" href="./assets/particles/css/style.css"> -->
+	
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -19,84 +20,84 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://kit.fontawesome.com/93528aa481.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
 
-	<nav class="navbar navbar-expand-md bg-transparent text-white navbar-dark fixed-top" id="StartingPoint"
-		style="margin-top:5px;">
-		<!-- <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Niroojen LOGO" class="logo"></a> -->
-		<a class="navbar-brand" href="#">Niroojen Thambimuthu</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-			id="buttonNav">
-			<span class="navbar-toggler-icon"></span>
+
+
+
+
+
+
+	<nav class="navbar bg-transparent text-white navbar-dark fixed-top" id="myScrollspy">
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="buttonNav">
+			<span><i class="fas fa-bars fa-2x"></i></span>
 		</button>
-		<div class="collapse navbar-collapse " id="collapsibleNavbar">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
+
+
+		<div class="collapse navbar-collapse navbar-expand-sm text-center col-12" id="collapsibleNavbar">
+			<ul class="navbar-nav nav-pills  align-middle">
+				<li class="nav-item col-8 col-sm-3">
+					<a class="nav-link" href="#particles-js">Home</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About-Me</a>
+				<li class="nav-item dropdown col-8 col-sm-3 align-middle">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About Me</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#aboutSection">About Me</a>
+						  <a class="dropdown-item" href="#skillSection">Skills</a>
+						  <a class="dropdown-item" href="#EducationTemp">Education</a>
+						</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Skills</a>
+				<li class="nav-item col-8 col-sm-3">
+					<a class="nav-link" href="#project">Portfolio</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+				<li class="nav-item col-8 col-sm-3">
+					<a class="nav-link" href="#hobbiesSection">Hobbies</a>
 				</li>
 			</ul>
 		</div>
+		
 	</nav>
 
-	<!-- <nav class="navbar navbar-expand-md bg-dark text-white navbar-dark sticky-top justify-content-between fixed-top" id="StartingPoint">
-		<a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Niroojen LOGO" class="logo"></a>
-		<a class="navbar-brand" href="#">Niroojen Thambimuthu</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-			id="buttonNav">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About-Me</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Skills</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav> -->
+
+
+
+
+
+
+
+
+
+
 
 	<!-- https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp -->
 
 
-	<div class="container-fluid justify-content-center" id="homePage">
-		<div class="row h-100 justify-content-center">
-			<div class="col-12 col-sm-10 my-auto h-75" style="border: 1px solid white;">
-				<p>HI I'm Niroojen Thambimuthu and Welcome to my website.</p>
-				<p>Computer science Graduate Seeking an entry or junior level position that would allow me to utilize
-					various skills to further develop my abilities and understanding.</p>
+	<!-- Main Page -->
+	<div class="container-fluid justify-content-center" id="particles-js">
+		<div class="row h-100 justify-content-center" id="particleBug">
+			<div class="col-12 col-sm-8 mx-auto my-auto jumbotron bg-transparent text-white" id="introJumbotron">
+				<br><br><br><br><br><br>
+				<h2 class="display-4">Hey! I'm <span>Niroojen Thambimuthu</span></h2>
+				<p class="lead">Aspiring Full-Stack and Web Developer</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg" href="#project" role="button">See My Portfolio</a>
+				</p>
+				<br><br><br><br><br><br>
+				<a href="#aboutSection">
+					<i class="fa fa-angle-double-down bounce fa-3x" aria-hidden="true"></i>
+				</a>
 			</div>
 		</div>
-
 	</div>
 
 
+
+	<!-- About Me -->
 	<section class="container-fluid justify-content-center shadow-lg" id="aboutSection">
 		<div class="row h-100 justify-content-center">
 			<div class="col-12 col-sm-7 my-auto h-100  order-2 order-sm-1" id="aboutDescription">
@@ -318,9 +319,49 @@
 
 
 
-	<!-- <div class="jumbotron text-center" id="Footer">
-		<p>Footer</p>
-	</div> -->
+	<div class="jumbotron text-center" id="Footer">
+
+		<!-- Footer Elements -->
+		<div class="container">
+
+			<!-- Social buttons -->
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<a class="mx-2" href="https://ca.linkedin.com/in/niroojen-thambimuthu">
+						<i class="fab fa-linkedin fa-3x"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mx-2" href="./assets/pdf/Niroojen_Resume.pdf">
+						<i class="fas fa-file-pdf fa-3x"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mx-2" href="mailto:niroojen.thambimuthu@gmail.com?Subject=" target="_top">
+						<i class="fas fa-envelope fa-3x"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="mx-2" href="https://github.com/niroojen-thambimuthu">
+						<i class="fab fa-github-square fa-3x"></i>
+					</a>
+				</li>
+			</ul>
+
+
+		</div>
+		<!-- Footer Elements -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© Niroojen Thambimuthu
+		</div>
+		<!-- Copyright -->
+	</div>
+
+	<!-- scripts -->
+	<script src="./myscripts.js"></script>
+	<script src="./assets/particles/particles.js"></script>
+	<script src="./assets/particles/js/app.js"></script>
 
 
 </body>
