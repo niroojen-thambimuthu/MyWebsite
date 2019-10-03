@@ -130,6 +130,14 @@ canvas{
     z-index: 2; 
 }
 
+#spacing1{
+    margin-top: 20vh;
+}
+
+#spacing2{
+    margin-top: 15vh;
+}
+
 /* #downArrow{
     position: absolute;
     width: 100%;
