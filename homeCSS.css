@@ -108,6 +108,7 @@
   
   position: relative;
     height: 100vh;
+    max-height: 100vh;
     width: 100%;
     text-align: center;
     
@@ -135,7 +136,7 @@ canvas{
 }
 
 #spacing2{
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 /* #downArrow{
