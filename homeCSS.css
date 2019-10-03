@@ -32,21 +32,22 @@
 
 
 #myScrollspy{
-    background-color: none !important;
-    margin-top:5px;
+    /* background-color: white !important; */
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    /* margin-top:10px; */
     /* border: 1px solid white;
     border-radius: 5px; */
     /* height: 100vh; */
 }
 
-.navbar-brand, .navbar-nav, .navbar-toggler{
+.navbar-brand, .navbar-toggler{
     background-color: black !important;
-    border: 1px solid white;
-    border-radius: 5px;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
     color: white !important;
 }
 
-.nav-link, .navbar-toggler-icon{
+.navbar-toggler-icon{
     color: white !important;
 }
 
@@ -66,9 +67,16 @@
     
 }
 
-
 .nav-item{
+    padding: 0px !important;
+}
+
+
+.nav-link{
+    background-color: #0a0a0a;
+    border: 1px solid white;
     text-align: center;
+    border-radius: 0px !important;
     /* width: 100%; */
 }
 
@@ -131,23 +139,9 @@ canvas{
     z-index: 2; 
 }
 
-/* #spacing1{
-    margin-top: 15vh !important;
-}
 
-#spacing2{
-    margin-top: 20vh;
-} */
-
-/* #downArrow{
-    position: absolute;
-    width: 100%;
-    border: 2px solid red;
-    padding-top: 90vh;
-    z-index: 4;
-} */
 .fa-angle-double-down, .navbar-toggler-icon{
-    color: white;
+    color: white !important;
 }
 
 .bounce {
