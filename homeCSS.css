@@ -38,6 +38,13 @@
     /* border: 1px solid white;
     border-radius: 5px; */
     /* height: 100vh; */
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#navTemp{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
 .navbar-brand, .navbar-toggler{
@@ -47,9 +54,6 @@
     color: white !important;
 }
 
-.navbar-toggler-icon{
-    color: white !important;
-}
 
 #collapsibleNavbar{
     /* border: 1px solid orange; */
@@ -67,17 +71,45 @@
     
 }
 
-.nav-item{
+.nav-item, #collapsibleNavbar{
     padding: 0px !important;
 }
 
 
-.nav-link{
+.nav-link, .dropdown-item{
     background-color: #0a0a0a;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     text-align: center;
     border-radius: 0px !important;
     /* width: 100%; */
+}
+
+.nav-pills .show>.nav-link {
+    background-color: #0a0a0a !important;
+    /* border: 1px solid white; */
+    text-align: center;
+    border-radius: 0px !important;
+    /* width: 100%; */
+}
+
+.dropdown-menu{
+    width: 100%;
+    /* text-align: center; */
+}
+
+.nav-link.active, .dropdown-item.active{
+    background-color: rgba(10, 10, 10, 0.7) !important;
+    color: white !important;
+    /* border: 1px solid #0a0a0a !important; */
+    border: 3px solid white;
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+    colr:000;
+    width: 100%;
 }
 
 
