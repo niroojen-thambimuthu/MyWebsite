@@ -209,7 +209,17 @@ canvas{
 
 #aboutSection{
     background-color: black !important;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+}
+
+#aboutDescription{
+    /* margin: 0px !important;
+    height: 100% !important; */
+    font-style: italic !important;
+}
+
+#aboutDescription h1, h3 {
+    text-align: center !important;
 }
 
 #aboutRow, #EducationTemp{
@@ -243,18 +253,42 @@ canvas{
 
 /* Skill section */
 #skillSection{
-    /* min-height: 100vh; */
-    min-height: 500px;
-    width: 100%;
-    background-color: black !important;
-    color: white;
-    border: 1px solid white;
-    margin-top: 5vh;
+    border: 2px solid red;
+}
+
+#skillRow{
+    padding: 0 !important;
+}
+
+#skillDescription{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets/img/grad_background.jpg"); */
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Project section */
 #project, #hobbiesSection{
-    margin-top:30px;
+    /* margin-top:30px; */
     /* height: 70vh; */
     width: 100%;
     /* background-color: rgba(255, 0, 0, 0.5); */
