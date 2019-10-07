@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    /* font-family: cursive, "Apple Chancery"; */
+    /* font-family: 'Arizonia', Helvetica, sans-serif; */
+    /* font-family: 'Cookie', Helvetica, sans-serif; */
+    /* font-size: 20px; */
   }
   
   html {
@@ -160,6 +164,11 @@ canvas{
     color: white !important;
 }
 
+#buttonPortfolio{
+    background-color: rgba(10, 10, 10, 0.7) !important;
+    color: white !important;
+}
+
 .bounce {
     display: inline-block;
     position: relative;
@@ -167,7 +176,6 @@ canvas{
     -o-animation: bounce 0.5s infinite linear;
     -webkit-animation: bounce 0.5s infinite linear;
     animation: bounce 0.5s infinite linear;
-    colr:000;
   }
   
   @-webkit-keyframes bounce {
@@ -209,7 +217,7 @@ canvas{
 
 #aboutSection{
     /* background-color: rgba(10, 10, 10, 1.0) !important; */
-    border : 1px solid black;
+    border : 5px solid black;
     border-radius: 5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/program.jpg");
 }
@@ -230,7 +238,7 @@ canvas{
     /* border-bottom: 35px solid black !important; */
     border : 1px solid black;
     color: black;
-    background-color: rgba(255, 255, 255, 1.0) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
     border-radius: 5px;
 }
 
