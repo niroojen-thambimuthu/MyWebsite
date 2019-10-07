@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
   }
   
   html {
@@ -21,23 +22,12 @@
 
 
 
-
-
-
-
-
-
 /* NAVBAR CSS */
 
 
 
 #myScrollspy{
-    /* background-color: white !important; */
     background-color: rgba(255, 255, 255, 0.3) !important;
-    /* margin-top:10px; */
-    /* border: 1px solid white;
-    border-radius: 5px; */
-    /* height: 100vh; */
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
@@ -49,58 +39,42 @@
 
 .navbar-brand, .navbar-toggler{
     background-color: black !important;
-    /* border: 1px solid white; */
-    /* border-radius: 5px; */
     color: white !important;
 }
-
-
-#collapsibleNavbar{
-    /* border: 1px solid orange; */
-    /* width: 100%; */
-    /* height: 80vh; */
-} 
 
 #buttonNav{
     outline: none;
 }
 
 #buttonNav:hover, .fa-angle-double-down:hover{
-    /* background-color: white !important; */
-    opacity: 0.7;
-    
+    opacity: 0.7;    
 }
 
 .nav-item, #collapsibleNavbar{
     padding: 0px !important;
 }
 
-
 .nav-link, .dropdown-item{
     background-color: #0a0a0a;
-    /* border: 1px solid white; */
     text-align: center;
     border-radius: 0px !important;
-    /* width: 100%; */
 }
 
 .nav-pills .show>.nav-link {
     background-color: #0a0a0a !important;
-    /* border: 1px solid white; */
     text-align: center;
     border-radius: 0px !important;
-    /* width: 100%; */
 }
 
 .dropdown-menu{
     width: 100%;
-    /* text-align: center; */
+    text-align: center !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .nav-link.active, .dropdown-item.active{
     background-color: rgba(10, 10, 10, 0.7) !important;
     color: white !important;
-    /* border: 1px solid #0a0a0a !important; */
     border: 3px solid white;
     display: inline-block;
     position: relative;
@@ -108,8 +82,13 @@
     -o-animation: bounce 0.5s infinite linear;
     -webkit-animation: bounce 0.5s infinite linear;
     animation: bounce 0.5s infinite linear;
-    colr:000;
     width: 100%;
+}
+
+.nav-link:hover, .dropdown-item:hover{
+    background-color: rgba(10, 10, 10, 1.0) !important;
+    color: white !important;
+    border: 1px solid white !important;
 }
 
 
@@ -277,4 +256,11 @@ canvas{
         margin-top: 30px !important;
         margin-bottom: 30px !important;
     }
-  }
+}
+
+@media only screen and (max-width: 575px) {
+    #myScrollspy{
+        position:fixed !important;
+        top:0 !important;
+    }
+}
