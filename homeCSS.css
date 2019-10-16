@@ -14,8 +14,14 @@
   body{
       margin:0;
       padding: 0;
-    width: 100%;
+    /* width: 100%; */
     min-width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/img/program.jpg");
+
+    /* height: 100%; */
+    /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
     
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/background.jpg");
     background-repeat: no-repeat;
@@ -203,9 +209,12 @@ canvas{
 
 #aboutSection{
     /* background-color: rgba(10, 10, 10, 1.0) !important; */
-    border : 5px solid black;
+    /* border : 5px solid black; */
+    /* border-radius: 5px; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/program.jpg"); */
+    background-color: rgba(10, 10, 10, 0.3);
+    border : 5px solid rgba(10, 10, 10, 1.0);
     border-radius: 5px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/program.jpg");
 }
 
 #aboutDescription{
@@ -218,7 +227,7 @@ canvas{
     text-align: center !important;
 }
 
-#aboutRow, #EducationTemp{
+#aboutRow{
     width: 100%;
     /* border-top: 35px solid black !important; */
     /* border-bottom: 35px solid black !important; */
@@ -249,7 +258,7 @@ canvas{
 
 
 /* Skill section */
-#skillTemp{
+#skillTemp, #educationSection{
     /* width: 100%;
     border-top: 35px solid orange !important;
     border-bottom: 35px solid orange !important;
@@ -261,11 +270,11 @@ canvas{
     border-radius: 5px;
 }
 
-#skillRow{
+#skillRow, #educationRow{
     /* padding: 0 !important;
     background-color: rgba(255, 255, 255, 1.0) !important; */
     padding: 0 !important;
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
     border: 1px solid black;
 }
 
@@ -295,6 +304,34 @@ canvas{
 
 
 
+/* Education Section */
+/* #educationSection{
+    border : 5px solid rgba(10, 10, 10, 1.0);
+    border-radius: 5px; */
+    
+
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/grad_background.jpg"); */
+    /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover;  */
+/* } */
+
+/* #educationRow{
+    padding: 0 !important;
+} */
+
+#educationMain{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/grad_background.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#EducationImage{
+    width:50% !important;
+    -webkit-filter: grayscale(90%) !important;
+   filter: grayscale(90%) !important;
+}
 
 
 
@@ -424,6 +461,10 @@ canvas{
 
     #aboutPicture{
         margin-top: 50px !important;
+    }
+
+    #skillDescription{
+        margin-top: 30px !important;
     }
 }
 
