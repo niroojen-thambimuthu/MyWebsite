@@ -258,7 +258,7 @@ canvas{
 
 
 /* Skill section */
-#skillTemp, #educationSection{
+#skillTemp, #educationSection, #projectSection{
     /* width: 100%;
     border-top: 35px solid orange !important;
     border-bottom: 35px solid orange !important;
@@ -270,7 +270,7 @@ canvas{
     border-radius: 5px;
 }
 
-#skillRow, #educationRow{
+#skillRow, #educationDescription, #projectRow{
     /* padding: 0 !important;
     background-color: rgba(255, 255, 255, 1.0) !important; */
     padding: 0 !important;
@@ -305,34 +305,30 @@ canvas{
 
 
 /* Education Section */
-/* #educationSection{
-    border : 5px solid rgba(10, 10, 10, 1.0);
-    border-radius: 5px; */
-    
-
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/grad_background.jpg"); */
-    /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover;  */
-/* } */
-
-/* #educationRow{
-    padding: 0 !important;
+/* #EducationTemp img {
+    -webkit-filter: grayscale(100%) !important;
+   filter: grayscale(100%) !important;
 } */
 
-#educationMain{
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/grad_background.jpg");
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+
+#educationLeft, #educationRight{
+    /* margin: 0 auto !important; */
+    /* height: 20% !important; */
+    text-align: center !important;
 }
 
 #EducationImage{
-    width:50% !important;
-    -webkit-filter: grayscale(90%) !important;
-   filter: grayscale(90%) !important;
+    -webkit-filter: grayscale(70%) !important;
+   filter: grayscale(70%) !important;
 }
 
+.educationPic{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    -webkit-filter: grayscale(100%) !important;
+   filter: grayscale(100%) !important;
+   opacity: 0.3;
+}
 
 
 
@@ -352,11 +348,24 @@ canvas{
 #project{
     /* margin-top:30px; */
     /* height: 70vh; */
-    width: 100%;
+    /* width: 100%; */
     /* background-color: rgba(255, 0, 0, 0.5); */
-    background-color: red;
+    /* background-color: red; */
     /* border: 3px solid black; */
 }
+
+
+
+
+#projectQS{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets/img/QS_LOGO.jpg");
+}
+
+
+
+
+
+
 
 
 
@@ -364,13 +373,17 @@ canvas{
 
 
 /* Hobbies section */
-#hobbiesSection{
+/* #hobbiesSection{
     width: 100%;
-}
+} */
 
 #hobbyContainer{
-    background-color: rgba(10, 10, 10, 1.0);
+    /* background-color: rgba(10, 10, 10, 1.0);
     border : 5px solid white;
+    border-radius: 5px; */
+
+    background-color: rgba(10, 10, 10, 0.3);
+    border : 5px solid rgba(10, 10, 10, 1.0);
     border-radius: 5px;
 }
 
@@ -410,6 +423,9 @@ canvas{
     /* padding-right: 0px !important; */
     /* z-index: 3; */
     /* border: none !important; */
+    border-top: 3px solid white;
+    /* border-radius: 5px; */
+    border-bottom: 3px solid white;
     position:relative !important;
     background-size: auto 100%;
     line-height: 0;
@@ -466,6 +482,22 @@ canvas{
     #skillDescription{
         margin-top: 30px !important;
     }
+
+    #EducationImage{
+        width:50% !important;
+        /* text-align: center !important; */
+        align-self: center !important;
+        margin: 0 auto !important;
+    }
+    #educationLeft{
+        /* margin: 0 auto !important; */
+        /* height: 20% !important; */
+    }
+    /* #educationDescription{
+        height: 100% !important;
+        width: 100% !important;
+        margin: 0  !important;
+    } */
 }
 
 @media only screen and (max-width: 575px) {
