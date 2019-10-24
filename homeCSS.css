@@ -22,10 +22,6 @@ body{
 
 
 
-
-
-
-
 /* NAVBAR CSS */
 
 
@@ -195,15 +191,10 @@ canvas{
 
 
 /* About me Section */
-
 #aboutSection{
     background-color: rgba(10, 10, 10, 0.3);
     border : 5px solid rgba(10, 10, 10, 1.0);
     border-radius: 5px;
-}
-
-#aboutDescription h2, h3 {
-    text-align: center !important;
 }
 
 #aboutRow{
@@ -325,6 +316,14 @@ border-radius: 15px;
 
 
 
+
+
+
+
+
+
+
+
 /* Footer Css */
 #Footer{
     margin-bottom:0;
@@ -341,7 +340,7 @@ border-radius: 15px;
 #footerLinks{
     position:absolute;
     top: 0;
-    background-color: rgba(10, 10, 10, 1.0) !important;
+    background-color: rgba(10, 10, 10, 1.0);
 }
 
 .fa-linkedin, .fa-file-pdf, .fa-envelope, .fa-github-square{
@@ -383,7 +382,6 @@ border-radius: 15px;
 
     #EducationImage{
         width:50% !important;
-        /* text-align: center !important; */
         align-self: center !important;
         margin: 0 auto !important;
     }
