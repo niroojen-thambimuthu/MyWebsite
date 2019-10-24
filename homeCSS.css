@@ -325,14 +325,6 @@ border-radius: 15px;
 
 
 
-
-
-
-
-
-
-
-
 /* Footer Css */
 #Footer{
     margin-bottom:0;
@@ -349,12 +341,8 @@ border-radius: 15px;
 #footerLinks{
     position:absolute;
     top: 0;
+    background-color: rgba(10, 10, 10, 1.0) !important;
 }
-
-#canvas{
-    height:100% !important
-}
-
 
 .fa-linkedin, .fa-file-pdf, .fa-envelope, .fa-github-square{
     color: rgba(255, 255, 255, 0.6) !important;
