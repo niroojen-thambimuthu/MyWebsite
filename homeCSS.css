@@ -5,28 +5,18 @@
     /* font-family: 'Arizonia', Helvetica, sans-serif; */
     /* font-family: 'Cookie', Helvetica, sans-serif; */
     /* font-size: 20px; */
-  }
+}
   
-  html {
+html {
     scroll-behavior: smooth !important;
 }
 
-  body{
-      margin:0;
-      padding: 0;
-    /* width: 100%; */
+body{
+    margin:0;
+    padding: 0;
     min-width: 300px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/img/program.jpg");
-
-    /* height: 100%; */
-    /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-    
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/background.jpg");
-    background-repeat: no-repeat;
-  background-attachment: fixed; */
-  }
+ }
 
 
 
@@ -143,7 +133,6 @@
 #particleBug{
     position: absolute;
     z-index: 3;
-    /* border: 1px solid orange; */
     width: 100%;
 }
 
@@ -208,10 +197,6 @@ canvas{
 /* About me Section */
 
 #aboutSection{
-    /* background-color: rgba(10, 10, 10, 1.0) !important; */
-    /* border : 5px solid black; */
-    /* border-radius: 5px; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/img/program.jpg"); */
     background-color: rgba(10, 10, 10, 0.3);
     border : 5px solid rgba(10, 10, 10, 1.0);
     border-radius: 5px;
@@ -223,8 +208,6 @@ canvas{
 
 #aboutRow{
     width: 100%;
-    /* border-top: 35px solid black !important; */
-    /* border-bottom: 35px solid black !important; */
     border : 1px solid black;
     color: black;
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -236,8 +219,6 @@ canvas{
     border: 1px solid black;
     border-radius: 5px;
     background-color: black;
-    /* -webkit-filter: grayscale(30%);
-   filter: grayscale(30%); */
 }
 
 
@@ -253,20 +234,12 @@ canvas{
 
 /* Skill section */
 #skillTemp, #educationSection, #projectSection{
-    /* width: 100%;
-    border-top: 35px solid orange !important;
-    border-bottom: 35px solid orange !important;
-    color: black;
-    border-radius: 5px; */
-
     background-color: rgba(10, 10, 10, 0.3);
     border : 5px solid rgba(10, 10, 10, 1.0);
     border-radius: 5px;
 }
 
 #skillRow, #educationDescription, #projectRow, #educationRow{
-    /* padding: 0 !important;
-    background-color: rgba(255, 255, 255, 1.0) !important; */
     padding: 0 !important;
     background-color: rgba(255, 255, 255, 0.7) !important;
     border: 1px solid black;
@@ -302,28 +275,23 @@ canvas{
 
 
 /* Education Section */
-
-
-
 .educationPic{
     padding-left: 0px !important;
     padding-right: 0px !important;
     border: 1px solid #007bff;
-    /* -webkit-filter: grayscale(80%) !important; */
-   /* filter: grayscale(80%) !important; */
-   /* opacity: 0.9; */
 }
 
 
 
 
 /* Project section */
-
-
 .projectOther{
 border: 2px solid #007bff !important;
 border-radius: 15px;
 }
+
+
+
 
 
 
@@ -352,7 +320,6 @@ border-radius: 15px;
 #hobbiesSection h3, #EducationTemp h3, #aboutSection h2, #skillTemp h2, #projectSection h3 , #projectSection h4{
       background-color: rgba(10, 10, 10, 0.7);
     border : 5px solid rgba(10, 10, 10, 1.0);
-    /* border-radius: 5px; */
   }
 
 
@@ -369,15 +336,9 @@ border-radius: 15px;
 /* Footer Css */
 #Footer{
     margin-bottom:0;
-    /* margin-top: 30px; */
     padding: 0px;
     padding-bottom: 0; 
-    /* padding-left: 0px !important; */
-    /* padding-right: 0px !important; */
-    /* z-index: 3; */
-    /* border: none !important; */
     border-top: 3px solid white;
-    /* border-radius: 5px; */
     border-bottom: 3px solid white;
     position:relative !important;
     background-size: auto 100%;
@@ -387,10 +348,6 @@ border-radius: 15px;
 
 #footerLinks{
     position:absolute;
-    /* bottom:25%; */
-    /* right: 50%; */
-    /* text-align: center; */
-    /* top:25%; */
     top: 0;
 }
 
@@ -442,15 +399,6 @@ border-radius: 15px;
         align-self: center !important;
         margin: 0 auto !important;
     }
-    #educationLeft{
-        /* margin: 0 auto !important; */
-        /* height: 20% !important; */
-    }
-    /* #educationDescription{
-        height: 100% !important;
-        width: 100% !important;
-        margin: 0  !important;
-    } */
 }
 
 @media only screen and (max-width: 575px) {
