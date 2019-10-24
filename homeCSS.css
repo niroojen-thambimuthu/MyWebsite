@@ -317,42 +317,13 @@ canvas{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Project section */
-#project{
-    /* margin-top:30px; */
-    /* height: 70vh; */
-    /* width: 100%; */
-    /* background-color: rgba(255, 0, 0, 0.5); */
-    /* background-color: red; */
-    /* border: 3px solid black; */
+
+
+.projectOther{
+border: 2px solid #007bff !important;
+border-radius: 15px;
 }
-
-
-
-
-#projectQS{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assets/img/QS_LOGO.jpg");
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -360,7 +331,7 @@ canvas{
 #hobbyContainer{
     background-color: rgba(10, 10, 10, 0.3);
     border : 5px solid rgba(10, 10, 10, 1.0);
-    border-radius: 5px;
+    /* border-radius: 200px; */
 }
 
 .card-body{
@@ -378,7 +349,7 @@ canvas{
     border: 1px solid #007bff;
   }
 
-#hobbiesSection h3, #EducationTemp h3, #aboutSection h2, #skillTemp h2{
+#hobbiesSection h3, #EducationTemp h3, #aboutSection h2, #skillTemp h2, #projectSection h3 , #projectSection h4{
       background-color: rgba(10, 10, 10, 0.7);
     border : 5px solid rgba(10, 10, 10, 1.0);
     /* border-radius: 5px; */
