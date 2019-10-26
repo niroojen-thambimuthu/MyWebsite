@@ -1,10 +1,10 @@
 * {
  box-sizing: border-box;
- /* font-family: "Times New Roman", Times, serif; */
- /* font-family: cursive, "Apple Chancery"; */
- /* font-family: 'Arizonia', Helvetica, sans-serif; */
- /* font-family: 'Cookie', Helvetica, sans-serif; */
- /* font-size: 20px; */
+}
+
+p:not(.lead){
+ font-family: "Times New Roman", Times, serif;
+ font-weight: bold;
 }
 
 html {
